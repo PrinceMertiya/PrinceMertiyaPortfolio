@@ -112,7 +112,7 @@ const Footer = () => {
         {/* bottom line */}
         <div className="relative z-10 mt-8 pt-6 border-t border-white/10 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sm text-gray-400">
           <p>© {new Date().getFullYear()} Prince Mertiya. All rights reserved.</p>
-          <p>Built with React + Tailwind CSS</p>
+          
         </div>
       </div>
     </footer>

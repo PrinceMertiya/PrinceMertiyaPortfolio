@@ -3,7 +3,6 @@ import {
   Sparkles,
   FolderOpen,
   Mail,
-  Download,
   Code2,
   BriefcaseBusiness,
   UserRound,
@@ -23,10 +22,10 @@ const Hero = () => {
           <p className="text-cyan-400 text-xl mb-4 font-medium">Hi, I&apos;m</p>
 
           <h1 className="font-bold tracking-tight leading-tight">
-            <span className="text-white text-[4.4rem] xl:text-[5.6rem]">
+            <span className="text-white text-[4.0rem] xl:text-[4.0rem]">
               Prince{" "}
             </span>
-            <span className="gradient-text text-[4.4rem] xl:text-[5.6rem]">
+            <span className="gradient-text text-[4.0rem] xl:text-[4.0rem]">
               Mertiya
             </span>
           </h1>
@@ -60,7 +59,7 @@ const Hero = () => {
               Contact Me
             </a>
 
-            <a
+            {/* <a
               href="/PrinceResume.pdf"
               target="_blank"
               rel="noreferrer"
@@ -68,7 +67,7 @@ const Hero = () => {
             >
               <Download size={18} />
               Resume
-            </a>
+            </a> */}
           </div>
 
           {/* Social */}
@@ -110,9 +109,9 @@ const Hero = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2">
           {/* IMAGE CARD — taller, image more prominent */}
-          <div className="glow-card rounded-[2rem] p-4 relative overflow-hidden h-[420px] xl:h-[460px]">
+          <div className="glow-card rounded-[2rem] p-2 relative overflow-hidden h-[400px] xl:h-[450px]">
   {/* outer ambient glow */}
   <div className="absolute -top-16 -right-10 w-56 h-56 bg-blue-500/15 blur-3xl rounded-full" />
   <div className="absolute -bottom-16 -left-10 w-56 h-56 bg-purple-500/15 blur-3xl rounded-full" />
