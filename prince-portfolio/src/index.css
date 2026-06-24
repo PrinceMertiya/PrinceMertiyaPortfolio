@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #080f19;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glow-card {
+  background: rgba(17, 24, 39, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+.glow-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(99, 102, 241, 0.45);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.12);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #60a5fa, #8b5cf6, #22d3ee);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  color: #9ca3af;
+  margin-top: 0.5rem;
+}
+.hero-image-shadow {
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.06),
+    0 20px 80px rgba(59,130,246,0.12),
+    0 10px 50px rgba(139,92,246,0.10);
+}
